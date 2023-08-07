@@ -56,7 +56,7 @@ const Signup = ({ email, setEmail, error, setError }) => {
     return (
         <div className="container">
 
-            <section className='detailSection'>
+            <section className='detailSection' role="offerings">
                 <TextDetails />
 
                 <form onSubmit={handleSubmit} className='d-flex'>

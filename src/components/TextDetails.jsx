@@ -4,12 +4,12 @@ const TextDetails = () => {
     
     return (
         <div className='TextDetails'>
-            <main>
+            <div>
                 <h1 className=' | bold'>Stay updated!</h1>
                 <p className="small heading-detail" >
                     Join 60,000+ product managers receiving monthly updates on:
                 </p>
-            </main>
+            </div>
 
             <section className='offerings'>
                 <ul className='d-flex'>
